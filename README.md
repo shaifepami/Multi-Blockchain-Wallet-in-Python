@@ -268,6 +268,9 @@ Open a new Anaconda powershell prompt and run python. at the next prompt, enter 
 	- Transaction Successful:
 	![Transaction Success](Images/tx_success.PNG)
 
+        ![Transaction Success](mycrypto_success.png)
+         
+
 </details>
 
 ## Accessing the wallet functions using Jupyter Notebook
