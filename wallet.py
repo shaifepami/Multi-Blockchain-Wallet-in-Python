@@ -13,6 +13,7 @@ from eth_account import Account
 from constants import *
 from pathlib import Path
 from getpass import getpass
+from bit.network import NetworkAPI
 import warnings
 warnings.filterwarnings("ignore")
 
