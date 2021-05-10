@@ -138,14 +138,14 @@ Local PoA Ethereum transaction using </b> </summary>
 - Please refer to the POA blockchain development [POA Testnet](https://github.com/shaifepami/POA_BLOCKCHAIN) 
 - Add one of the `ETH` addresses to the pre-allocated accounts in your `samchain.json`.
 
-- Initialize using `geth --datadir nodeX init poatestneet.json`. This will run our preconfigured local blockchain, and will pre-fund the new account.
+- Initialize using `geth --datadir nodeX init samchain.json`. This will run our preconfigured local blockchain, and will pre-fund the new account.
 
 - open myCrypto tool and connect to your local testnet node. If the local blockchain network is not running the transaction will fail. 
 
 - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
   MyCrypto's TX Status. Below is the screenshot of successful transaction :
 
-![eth-test](Images/eth_tx.PNG)
+  ![Transaction Success](mycrypto_success.png)
 
 </details>
 
@@ -268,7 +268,7 @@ Open a new Anaconda powershell prompt and run python. at the next prompt, enter 
 	- Transaction Successful:
 	![Transaction Success](Images/tx_success.PNG)
 
-        ![Transaction Success](mycrypto_success.png)
+
          
 
 </details>
